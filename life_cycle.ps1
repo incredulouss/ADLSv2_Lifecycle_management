@@ -1,13 +1,13 @@
 ﻿#az login
 
 
-$subscriptionId = "f9a04c65-d471-4466-9a08-d137bbeda384"
+$subscriptionId = "xxxx.xxxx.xxxx.xxxx"
 Set-AzContext -SubscriptionId $subscriptionId
 
 
 
 $ResourceGroupName='prodResourceGroup'
-$storageAccount='nbanksstorage'
+$storageAccount='storageAccount'
 $coolTierThreshold=10
 $ArchieveThreshold=30 
 $deleteThreshold=100
